@@ -325,7 +325,7 @@ public class EXUserController {
 	@GetMapping("/allWebsite")
 	public List<WebsiteBean> listOfWebsite() {
 		List<WebsiteBean> findAll = webRepo.findAll();
-		return findAll;
+		return findAll;//slkkldmakdmwadawdkwgit 
 	}
 
 }
